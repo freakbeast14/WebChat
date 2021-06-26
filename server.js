@@ -67,4 +67,9 @@ io.on('connection', (socket) => {
             users: getRoomUsers(user.room)
         });
     });
+
+    //when user starts typing
+    socket.on('typing', ({username, room}) => {
+        socket.broadcast.to(room).emit('typing',username);
+    });
 });
