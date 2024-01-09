@@ -38,7 +38,7 @@ See who's online and available for a chat. This feature enhances the social aspe
 
 ## Getting Started:
 
-1. Clone the repository: `git clone https://github.com/freakbeast14/SocketIOChatApp`
+1. Clone the repository: `git clone https://github.com/freakbeast14/WebChat.git`
 2. Install dependencies: `npm install`
 3. Run the application: `npm start`
 4. Access the application in your web browser at `http://localhost:3000`
